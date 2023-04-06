@@ -1,16 +1,18 @@
 import { Pagination } from 'antd';
-const onShowSizeChange = (current, pageSize) => {
-    console.log(current, pageSize);
+const onChange = (page, pageSize) => {
+    console.log(page, pageSize);
+    console.log(1111111);
 };
 
 export default function Paging() {
     return (
         <>
             <Pagination
+                pageSize={8}
                 showSizeChanger
-                onShowSizeChange={onShowSizeChange}
+                onChange={onChange}
                 defaultCurrent={1}
-                total={500}
+                total={400}
             />
         </>
     )

@@ -5,7 +5,7 @@ import { Card } from 'antd';
 
 const { Meta } = Card;
 
-const products = [
+const courses = [
     {
         id: 1,
         Image: "../Image/Rectangle 263.png",
@@ -106,10 +106,10 @@ const products = [
 ]
 
 
-export default function CartProduct() {
+export default function CartCourses() {
     return (
         <div className='product'>
-            {products.map(cart => {
+            {courses.map(cart => {
                 return (
                     <Card style={{ width: 300 }}
                         key={cart.id}

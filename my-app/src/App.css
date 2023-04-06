@@ -121,6 +121,14 @@ ul.ant-pagination.css-dev-only-do-not-override-1vtf12y {
   margin: 10px 10px;
 }
 
+.ant-card.ant-card-bordered.css-dev-only-do-not-override-1vtf12y:hover{
+  cursor: pointer;
+}
+
+.ant-card.ant-card-bordered.css-dev-only-do-not-override-1vtf12y .ant-card-meta-title:hover{
+    color: #BB2327;
+}
+
 .footer {
   height: 20vh;
   padding: 3.5rem 7rem;
@@ -128,46 +136,53 @@ ul.ant-pagination.css-dev-only-do-not-override-1vtf12y {
   background-color: #F7F8FB;
 }
 
+li.ant-pagination-options {
+  display: none !important;
+}
+
 
 /* mobile */
 @media only screen and (max-width: 600px) {
-  a.navbar-brand{
+  a.navbar-brand {
     display: none;
     position: absolute !important;
   }
-  
-  .frame{
+
+  .frame {
     width: 100%;
     padding: 5px 2.5rem;
   }
 
 
-  .ant-card.ant-card-bordered.css-dev-only-do-not-override-1vtf12y{
+  .ant-card.ant-card-bordered.css-dev-only-do-not-override-1vtf12y {
     width: 100% !important;
     display: flex;
     flex-wrap: wrap;
   }
-  .ant-card-cover{
+
+  .ant-card-cover {
     width: 24rem !important;
   }
-  .ant-card-body{
+
+  .ant-card-body {
     width: 100% !important;
     padding: 5px 5px !important;
   }
-  .ant-card-actions{
+
+  .ant-card-actions {
     width: 100% !important;
   }
 
-  .title-inSearch{
+  .title-inSearch {
     display: revert !important;
   }
 
-  .form.d-flex{
+  .form.d-flex {
     width: 100% !important;
   }
 }
 
-.footer{
+.footer {
   padding: 3.5rem 6rem !important;
 }
 
